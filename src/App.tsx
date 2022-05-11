@@ -1,26 +1,43 @@
 import React from 'react';
 import './App.css';
-import PersonList from './Components/MedicinaList';
+import MedicinaList from './Components/MedicinaList';
 import CreatePersonForm from './Components/CreateMedicinaForm';
 import UpdatePersonForm from './Components/UpdatePersonForm';
+
     
     function App() {
       return (
         <div className="App">      
-          <h1>Registrar medicina</h1>
-          <CreatePersonForm />
-          <br/>
-          <hr />
-          <h1>Actualizar registros</h1>
-          <UpdatePersonForm /> 
-          <br/>
-          <hr />
-          <h1>Lista de medicinas</h1>
-          <br/>
-          <PersonList />
-          <br/> 
-          <br/>
-          <br/>
+            <div className="contenido-principal">
+              <div className="formulario" >
+                <div className="mamada-de-datos2">
+
+                <h1>Formularios</h1>
+                <br/>
+                
+                <CreatePersonForm />
+
+                <br/>
+                <hr />
+                <br/>
+
+                <h1>Actualizar</h1>
+                <br/>
+
+                <UpdatePersonForm /> 
+
+                <br/>
+                <hr />
+
+                </div>
+            </div>
+
+
+            <div>
+              <MedicinaList />
+            </div>
+
+          </div>
         </div>
       );
     }
