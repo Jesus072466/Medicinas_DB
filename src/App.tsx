@@ -10,22 +10,19 @@ import UpdatePersonForm from './Components/UpdatePersonForm';
         <div className="App">      
             <div className="contenido-principal">
               <div className="formulario" >
+              <h1 className="titulo">Formularios</h1>
+
                 <div className="mamada-de-datos2">
 
-                <h1>Formularios</h1>
                 <br/>
-                
                 <CreatePersonForm />
-
                 <br/>
                 <hr />
                 <br/>
 
                 <h1>Actualizar</h1>
                 <br/>
-
                 <UpdatePersonForm /> 
-
                 <br/>
                 <hr />
 
@@ -36,7 +33,6 @@ import UpdatePersonForm from './Components/UpdatePersonForm';
             <div>
               <MedicinaList />
             </div>
-
           </div>
         </div>
       );

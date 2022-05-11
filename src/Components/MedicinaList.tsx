@@ -36,8 +36,8 @@ export default function MedicinaList () {
     return (
         <div>
             <div className="objetos">
+            <h1 className="titulo">Lista de medicinas</h1>
                 <div className="mamada-de-datos">
-                    <h1 className="titulo">Lista de medicinas</h1>
                     {rendermedicinas()}
                 </div>
             </div>
